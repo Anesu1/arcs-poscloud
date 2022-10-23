@@ -1,24 +1,35 @@
-import logo from './logo.svg';
 import './App.css';
+import Audit from './components/Audit';
+import Banner from './components/Banner';
+import Because from './components/Because';
+import Employ from './components/Employ';
+import Footer from './components/Footer';
+import GetInTouch from './components/GetInTouch';
+import Hardware from './components/Hardware';
+import Large from './components/Large';
+import Multi from './components/Multi';
+import Partners from './components/Partners';
+import Sales from './components/Sales';
+import Scanning from './components/Scanning';
+
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <>
+      <Banner />
+      <Because />
+      <Hardware />
+      <Multi />
+      <Employ />
+      <Sales />
+      <Large />
+      <Audit />
+      <Scanning />
+      <Partners />
+      <GetInTouch />
+      <Footer />
+    </>
+
   );
 }
 
